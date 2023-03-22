@@ -43,24 +43,28 @@
             android:id="@+id/btnSoma"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="somar"
             android:text="Soma" />
 
         <Button
             android:id="@+id/btnSubtrai"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="subtrair"
             android:text="Subtração" />
 
         <Button
             android:id="@+id/btnMultiplica"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="multiplicar"
             android:text="Multiplicação" />
 
         <Button
             android:id="@+id/btnDivide"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="dividir"
             android:text="Divisão" />
 
         <TextView
