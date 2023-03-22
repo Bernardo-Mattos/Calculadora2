@@ -17,10 +17,10 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="Numero 1" />
 
         <EditText
-            android:id="@+id/editTextNumber"
+            android:id="@+id/numero1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -30,37 +30,49 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="Numero 2" />
 
         <EditText
-            android:id="@+id/editTextNumber2"
+            android:id="@+id/numero2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="number" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btnSoma"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="Soma" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/btnSubtrai"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="Subtração" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/btnMultiplica"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="Multiplicação" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/btnDivide"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="Divisão" />
+
+        <TextView
+            android:id="@+id/txtResultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="O resultado é: " />
+
+        <TextView
+            android:id="@+id/resultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
